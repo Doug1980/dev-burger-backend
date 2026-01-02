@@ -13,3 +13,14 @@ Backend do projeto **Dev Burger**, responsável por gerenciar usuários, produto
 
 ## Estrutura do Projeto
 
+dev-burger-backend/
+├─ config/ # Configurações (DB, Stripe, etc.)
+├─ controllers/ # Lógica de rotas
+├─ models/ # Modelos Sequelize
+├─ routes/ # Rotas da API
+├─ middlewares/ # Middlewares (autenticação, erros, etc.)
+├─ migrations/ # Migrations do banco
+├─ seeders/ # Dados iniciais (opcional)
+├─ .sequelizerc
+├─ package.json
+└─ server.js (ou app.js)
